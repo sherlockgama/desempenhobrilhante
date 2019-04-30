@@ -2,67 +2,37 @@
 <html lang="pt-br">
     <head>
     <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Desempenho Brilhante</title>
 
     <link rel="icon" href="img/icon/favicon.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script type="text/javascript" src="js/firebase.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
 
     </head>
-    <body>
-        <!-- INICIO HEADER -->
-        <div class="container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="img/logo/DESEMPENHO_BRILHANTE_LOGO.jpg" height="120px">
-                    <div class="social-icons">
-                        <a href="#"><img src="img/icon/facebook.png" height="15px"></a>
-                        <a href="#"><img src="img/icon/instagram.png" height="15px"></a>
-                    </div>
-                </div>
-                <form class="form-inline">
-                    <label class="sr-only" for="searchInput">Name</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="searchInput" placeholder="Digite seu nome">
-                    
-                    <label class="sr-only" for="emailInput">Username</label>
-                    <div class="input-group mb-2 mr-sm-2">
-                        <input type="text" class="form-control" id="emailInput" placeholder="Digite seu email">
-                    </div>
-                    
-                    <button type="submit" class="btn btn-blog mb-2">Inscrever-se</button>
-                </form>
-            </div>
+    <body>        
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyDO5AJic1epcU7IgtYQ4dzJpKoGPBKy0RE",
+                authDomain: "desempenhobrilhantegama.firebaseapp.com",
+                databaseURL: "https://desempenhobrilhantegama.firebaseio.com",
+                projectId: "desempenhobrilhantegama",
+                storageBucket: "desempenhobrilhantegama.appspot.com",
+                messagingSenderId: "732956392359"
+            };
+            firebase.initializeApp(config);
+        </script>
 
-            <div class="wrapper">
-                <nav class="navbar navbar-light navbar-blog">
-                    <ul class="nav justify-content-center ul-blog col-12 nav-pills nav-fill">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Categoria 1</a>
-                                <a class="dropdown-item" href="#">Categoria 2</a>
-                                <a class="dropdown-item" href="#">Categoria 3</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Calculadora de produtividade</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sobre o Kanban</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Kanban1</a>
-                                <a class="dropdown-item" href="#">Kanban2</a>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        <!-- INICIO HEADER -->
+        
         <!-- FIM HEADER -->
 
         <!-- INÍCIO ARTIGOS RELACIONADOS -->
@@ -103,14 +73,14 @@
                 <div class="row justify-content-center">
                     <div class="offset-md-0">
                         <form class="form-inline">
-                            <label class="sr-only" for="nameInput">Nome</label>
-                            <input type="text" class="form-control mb-2 mr-sm-2 background-transparent" id="nameInput" placeholder="Insira seu nome">
+                            <label class="sr-only" for="nameInput2">Nome</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2 background-transparent" id="nameInput2" placeholder="Insira seu nome">
                             <label class="sr-only" for="email2Input">Email2</label>
                             <div class="input-group mb-2 mr-sm-2">
                                 <input type="text" class="form-control background-transparent email-input" id="email2Input" placeholder="Insira seu endereço de email">
                             </div>
                             
-                            <button type="submit" class="btn btn-blog mb-2">Enviar</button>
+                            <button class="btn btn-blog mb-2">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -159,5 +129,53 @@
             </div>
         </div>
         <!-- FIM FOOTER -->
+
     </body>
+
+    <script>
+        var ip = 0;
+
+        $.ajax({
+            type: 'GET',
+            url: 'https://api.ipify.org?format=json',
+        }).done(function(data) { 
+            ip = data.ip;
+        });
+
+        $('.toast').toast({
+            animation: true,
+            autohide: true,
+            delay: 1000
+        });
+
+        var emailInput = $('#emailInput');
+        var nameInput = $('#nameInput');
+
+        $('#submit').click(function () {
+            if (!nameInput.val()) {
+                alert("Informe o nome");
+                nameInput.focus();
+            } else if (!emailInput.val()) {
+                alert("Informe o email");
+                emailInput.focus();
+            }
+            create(emailInput.val(), nameInput.val(), ip);
+            nameInput.prop('disabled', true);
+            emailInput.prop('disabled', true);
+        })
+
+        function create(email, name, ip) {
+            var lead = {
+                email: email,
+                nome: name,
+                ip: ip,
+                tipo: 'B2B',
+                data_hora: new Date().toJSON()
+            }
+
+            firebase.database().ref().child('leads').push(lead);
+            alert('Inscrição realizada');
+        }
+
+    </script>
 </html>
