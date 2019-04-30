@@ -1,5 +1,10 @@
 :root {
     --main-color: #ffde3b;
+    --orange-color: #ff9d00;
+}
+
+.body {
+    font-family: 'gotham-black', 'gotham-book', 'pier-sans-bold';
 }
 
 .social-icons {
@@ -57,5 +62,97 @@
 
 .dropdown-menu {
     width: 95%;
+    text-align: center;
+}
+
+.footer-register {
+    background-color: var(--orange-color);
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-register-title {
+    margin-top: 40px;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-subtitle {
+    font-size: 16px;
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+.background-transparent {
+    background-color: transparent !important;
+    border-color: rgba(0,0,0,.6);
+    color: rgba(0,0,0,.6);
+}
+
+.email-input {
+    width: 280px !important;
+}
+
+.footer-text {
+    font-weight: bolder;
+    color: rgba(0,0,0,.4);
+    line-height: 1;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-social-icons > a {
+}
+
+.footer-social-icons > a {
+    background-color: var(--main-color);
+    border-radius: 9px;
+    margin: 10px;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.related-article {
+    margin-top: 30px;
+    background-color: #e9eef4;
+    padding-top: 40px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.card {
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.card > img {
+    width: calc(100% - 30px);
+    margin: 15px 15px 0px 15px;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.line {
+    margin-top: 15px;
+    height: 1px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.copyright {
+    margin-top: 15px;
+    margin-bottom: 20px;
     text-align: center;
 }
