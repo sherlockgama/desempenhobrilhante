@@ -1,9 +1,0 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container > div {
-    margin-top: 50px;
-}

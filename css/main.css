@@ -1,0 +1,61 @@
+:root {
+    --main-color: #ffde3b;
+}
+
+.social-icons {
+    position: absolute;
+    top: 0;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+.social-icons > a {
+    background-color: var(--main-color);
+    border-radius: 9px;
+}
+
+.navbar-blog {
+    border-bottom: 1px solid rgba(128,128,128,.5);
+    border-top: 1px solid rgba(128,128,128,.5);
+}
+
+.active {
+    background-color: var(--main-color) !important;
+    color: gray !important;
+}
+
+.active:hover {
+    color: gray !important;
+}
+
+.nav-link {
+    color: gray;
+}
+
+.nav-link:hover {
+    color: black; 
+}
+
+.btn-blog {
+    background-color: var(--main-color) !important; 
+}
+
+.dropdown {
+    margin-left: 10px;
+}
+
+.dropdown-toggle::after {
+    color: var(--main-color) !important;
+    margin-left: .900em;
+    vertical-align: .150em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #ffffff;
+    color: black;
+}
+
+.dropdown-menu {
+    width: 95%;
+    text-align: center;
+}
