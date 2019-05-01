@@ -3,8 +3,27 @@
     --orange-color: #ff9d00;
 }
 
-.body {
-    font-family: 'gotham-black', 'gotham-book', 'pier-sans-bold';
+@font-face {
+    font-family: gotham-black;
+    src: url("fonts/gotham-black-maisfontes/gotham-black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: gotham-book;
+    src: url("fonts/gotham-book-maisfontes/gotham-book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: pier-sans-bold;
+    src: url("fontspier-sans-bold-maisfontes/pier-sans-bold.otf") format("opentype");
+}
+
+.container {
+    font-family: gotham-book;
+}
+
+.row {
+    font-family: gotham-book;
 }
 
 .social-icons {
@@ -65,11 +84,16 @@
     text-align: center;
 }
 
+.header-input::-webkit-input-placeholder {
+    color: black;
+}
+
 .footer-register {
     background-color: var(--orange-color);
     height: 200px;
     margin-top: 50px;
     text-align: center;
+    color: black;
 }
 
 .footer-register-title {
@@ -90,7 +114,10 @@
 .background-transparent {
     background-color: transparent !important;
     border-color: rgba(0,0,0,.6);
-    color: rgba(0,0,0,.6);
+}
+
+.background-transparent::-webkit-input-placeholder {
+    color: black;
 }
 
 .email-input {
