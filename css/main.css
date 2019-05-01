@@ -156,3 +156,27 @@
     margin-bottom: 20px;
     text-align: center;
 }
+
+.list-card-category {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--orange-color);
+    text-decoration: underline;
+}
+
+.list-card-title {
+    margin-top: 5px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.list-card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.list-card-date {
+    text-align: right;
+    color: rgba(0,0,0,0.5);
+}
