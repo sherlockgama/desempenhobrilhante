@@ -4,12 +4,22 @@ $.ajax({
     type: 'GET',
     url: 'https://api.ipify.org?format=json',
 }).done(function(data) { 
-    ip = data.ip;
-    var ip = {
-        ip: ip,
-        data_hora: new Date().toJSON()
-    }
-    firebase.database().ref().child('chatbot').push(ip);
+    firebase.database().ref('chatbot').on('value', function (snapshot) {
+        var newIp = true;
+        snapshot.forEach(function (item) {
+            if (item.val().ip === data.ip) {
+                newIp = false;
+            }
+        })
+        if (newIp) {
+            var ip = {
+                ip: data.ip,
+                data_hora: new Date().toJSON()
+            }
+            firebase.database().ref().child('chatbot').push(ip);
+        }
+    });
+
 });
 
 $('.toast').toast({
