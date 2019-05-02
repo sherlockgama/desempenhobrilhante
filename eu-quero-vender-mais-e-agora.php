@@ -55,28 +55,9 @@
                 <p>
                     Se o seu vendedor tiver que gastar tempo entendendo como montar o processo de abertura de solicitação de produto, por exemplo, pense quanto será gasto caso esse processo não esteja em um único lugar integrado com as demais áreas da equipe?
                 </p>
-                <p>
-                    <b>Para atender essa demanda, criamos uma ferramenta incrível para melhorar a produtividade por meio da gestão dos processos da sua equipe de vendas.</b>
-                </p>
-                <p>
-                </p>
-                <p>
-                </p>
-                <p>
-                </p>                                                                
                 <small>
-                    <b>#gestãodepessoas #altaperformance #melhoresresultados</b>
+                    <b>#gestão #vendas #funildevendas</b>
                 </small>                
-                <small class="text-right">
-                    <p></br></br></br>Referências:</p>
-                    <p>
-                        LEAL, Yara. Resenha: Os 5 Desafios das Equipes – Uma Fábula sobre Liderança. </br>
-                        Disponível em: https://www.questaodecoaching.com.br/2018/07/02/resenha-os-5-desafios-das-equipes-uma-fabula-sobre-lideranca//. Acessado em: Abril de 2019.
-                    </p>
-                    <p>
-                        LENCIONI, Patrcik. Os 5 desafios das equipes: Uma história sobre liderança. Edição 1. Editora: Sextante, 3 de novembro de 2015. 
-                    </p>
-                </small>
             </div>
         </div>
 

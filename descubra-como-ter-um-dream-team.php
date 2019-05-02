@@ -75,7 +75,7 @@
                 <small>
                     <b>#gestãodepessoas #altaperformance #melhoresresultados</b>
                 </small>                
-                <small class="text-right">
+                <!--<small class="text-right">
                     <p></br></br></br>Referências:</p>
                     <p>
                         LEAL, Yara. Resenha: Os 5 Desafios das Equipes – Uma Fábula sobre Liderança. </br>
@@ -84,7 +84,7 @@
                     <p>
                         LENCIONI, Patrcik. Os 5 desafios das equipes: Uma história sobre liderança. Edição 1. Editora: Sextante, 3 de novembro de 2015. 
                     </p>
-                </small>
+                </small>-->
             </div>
         </div>
 
