@@ -220,3 +220,7 @@
     max-height: 500px;
     border-radius: 5px;
 }
+
+.card-header {
+    padding-top: 30px;
+}
