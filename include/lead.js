@@ -5,6 +5,11 @@ $.ajax({
     url: 'https://api.ipify.org?format=json',
 }).done(function(data) { 
     ip = data.ip;
+    var ip = {
+        ip: ip,
+        data_hora: new Date().toJSON()
+    }
+    firebase.database().ref().child('chatbot').push(ip);
 });
 
 $('.toast').toast({
