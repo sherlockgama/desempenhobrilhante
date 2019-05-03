@@ -6,9 +6,10 @@
     </head>
     <body>
         <div class="flex-align"><
+            <div id="loading" style="display:none"></div>
             <div class="container">
                 <div class="row">
-                    <div class="wrapper col-5">
+                    <div class="wrapper col-md-5 col-sm-12">
                         <div>
                             <p class="title"><b>Guia completo sobre Churn Rate</b></p>
                             <p class="text text-justify">
@@ -16,7 +17,7 @@
                             <p>
                         </div>
                     </div>
-                    <div class="col-6 offset-1 justify-content-center text-center">
+                    <div class="col-md-6 col-sm-12 col-mdoffset-1 justify-content-center text-center">
                         <div class="form-content">
                             <p class="title-form"><b>Receba o nosso eBook!</b></p>
                             <p class="subtitle-form">Preencha o cadastro abaixo, e </br> o enviaremos para seu e-mail.</p>

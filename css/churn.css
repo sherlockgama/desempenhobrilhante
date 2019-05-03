@@ -57,3 +57,15 @@ div.flex-align {
     width: 100%;
     border-color: #ff9c00;
 }
+
+#loading{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 11;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	opacity: .50;
+	filter: alpha(opacity=65);
+}

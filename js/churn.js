@@ -39,6 +39,7 @@ function checkSubmit(inputEmail, inputName, inputCompany, inputOffice) {
         return false;
     }
 
+    $("#loading").show();
     create(inputEmail.val(), inputName.val(), inputCompany.val(), inputOffice.val(), ip);
 }
 
@@ -75,5 +76,5 @@ function create(email, name, company, office, ip) {
     }
 
     firebase.database().ref().child('leads_churn').push(lead);
-    window.location.href = "http://www.desempenhobrilhante.com.br/ebook-churn-desempenhobrilhante.pdf";
+    setTimeout(function(){ window.location.href = "http://www.desempenhobrilhante.com.br/ebook-churn-desempenhobrilhante.pdf"; }, 2000);
 }
