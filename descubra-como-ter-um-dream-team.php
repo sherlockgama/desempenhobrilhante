@@ -10,10 +10,27 @@
             <div class="row justify-content-center">
                 <img src="img/gestao/dream_team.jpg" class="image-article">
             </div>
-            <div class="author">
-                <b>Por Murilo Borges</b></br>
-                Inside Sales</br>
-                Publicado em 30 de abril de 2019
+            <div class="row">
+                <div class="col-6">
+                    <div class="author">
+                        <b>Por Murilo Borges</b></br>
+                        Inside Sales</br>
+                        Publicado em 30 de abril de 2019
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-end footer-social-icons">
+                        <div class="col-12 share-this-post text-right">
+                            Compartilhe esse post
+                        </div>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.desempenhobrilhante.com.br/descubra-como-ter-um-dream-team.php&t=" title="Compartilhar no Facebook" target="_blank">
+                            <img src="img/icon/facebook.png" height="15px">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet?text=Descubra%20como%20ter%20um%20Dream%20Team!&url=http://www.desempenhobrilhante.com.br/descubra-como-ter-um-dream-team.php" target="_blank" title="Compartilhar no Twitter">
+                            <img src="img/icon/twitter.png" height="15px">
+                        </a>
+                    </div>
+                </div>
             </div>
             <hr></br>
             <div class="article-options col-8 offset-2" style="font-size:18px">

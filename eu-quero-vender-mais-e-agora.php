@@ -10,10 +10,27 @@
             <div class="row justify-content-center">
                 <img src="img/vendas/vender_mais.png" class="image-article">
             </div>
-            <div class="author">
-                <b>Caroline Aguiar</b></br>
-                Relações Públicas</br>
-                Publicado em 1 de maio de 2019
+            <div class="row">
+                <div class="col-6">
+                    <div class="author">
+                    <b>Caroline Aguiar</b></br>
+                        Relações Públicas</br>
+                        Publicado em 1 de maio de 2019
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-end footer-social-icons">
+                        <div class="col-12 share-this-post text-right">
+                            Compartilhe esse post
+                        </div>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.desempenhobrilhante.com.br/eu-quero-vender-mais-e-agora.php&t=" title="Compartilhar no Facebook" target="_blank">
+                            <img src="img/icon/facebook.png" height="15px">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet?text=Eu%20quero%20vender%20mais!%20E%20agora?&url=http://www.desempenhobrilhante.com.br/eu-quero-vender-mais-e-agora.php" target="_blank" title="Compartilhar no Twitter">
+                            <img src="img/icon/twitter.png" height="15px">
+                        </a>
+                    </div>
+                </div>
             </div>
             <hr></br>
             <div class="article-options col-8 offset-2" style="font-size:18px">

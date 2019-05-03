@@ -34,7 +34,7 @@
 }
 
 .social-icons > a {
-    background-color: var(--main-color);
+    background-color: var(--orange-color);
     border-radius: 9px;
 }
 
@@ -136,7 +136,7 @@
 }
 
 .footer-social-icons > a {
-    background-color: var(--main-color);
+    background-color: var(--orange-color);
     border-radius: 9px;
     margin: 10px;
 }
@@ -223,4 +223,9 @@
 
 .card-header {
     padding-top: 30px;
+}
+
+.share-this-post {
+    opacity: 0.5;
+    margin-top: 30px;
 }
