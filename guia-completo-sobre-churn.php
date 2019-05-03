@@ -17,7 +17,7 @@
                             <p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12 col-mdoffset-1 justify-content-center text-center">
+                    <div class="col-md-6 col-sm-12 offset-md-1 justify-content-center text-center">
                         <div class="form-content">
                             <p class="title-form"><b>Receba o nosso eBook!</b></p>
                             <p class="subtitle-form">Preencha o cadastro abaixo, e </br> o enviaremos para seu e-mail.</p>

@@ -11,6 +11,11 @@ body {
     background-size: cover;
 }
 
+@media only screen and (max-width: 980px) {
+    .title { margin-top: 250px; }
+    #buttonRegister { margin-bottom: 50px; }
+}
+
 .title {
     color: #2e323b;
     font-size: 36px;

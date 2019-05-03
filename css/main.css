@@ -18,7 +18,6 @@
     src: url("fontspier-sans-bold-maisfontes/pier-sans-bold.otf") format("opentype");
 }
 
-
 @media only screen and (max-width: 980px) {
     .overlay { display: none; }
 }
