@@ -18,6 +18,11 @@
     src: url("fontspier-sans-bold-maisfontes/pier-sans-bold.otf") format("opentype");
 }
 
+
+@media only screen and (max-width: 980px) {
+    .overlay { display: none; }
+}
+
 .container {
     font-family: gotham-book;
 }
@@ -228,4 +233,8 @@
 .share-this-post {
     opacity: 0.5;
     margin-top: 30px;
+}
+
+.img-logo {
+    max-height: 120px;
 }

@@ -11,14 +11,14 @@
                 <img src="img/gestao/canvas_artigo.png" class="image-article">
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="author">
                     <b>Caroline Aguiar</b></br>
                         Relações Públicas</br>
                         Publicado em 1 de maio de 2019
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="row justify-content-end footer-social-icons">
                         <div class="col-12 share-this-post text-right">
                             Compartilhe esse post
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <hr></br>
-            <div class="col-8 offset-2" style="font-size:18px">
+            <div class="col-md-8 offset-md-2 col-sm-12" style="font-size:18px">
                 <h2><b>USE O CANVAS A SEU FAVOR</b></h2>
                 <div class="text-justify">
                     <p>

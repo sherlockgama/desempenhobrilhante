@@ -11,14 +11,14 @@
                 <img src="img/gestao/dream_team.jpg" class="image-article">
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="author">
                         <b>Por Murilo Borges</b></br>
                         Inside Sales</br>
                         Publicado em 30 de abril de 2019
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="row justify-content-end footer-social-icons">
                         <div class="col-12 share-this-post text-right">
                             Compartilhe esse post
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <hr></br>
-            <div class="article-options col-8 offset-2" style="font-size:18px">
+            <div class="article-options col-md-8 offset-md-2 col-sm-12" style="font-size:18px">
             <h2><b>Descubra como ter um dream team.</b></h2>
                 <div class="text-justify">
                     <p>Quem nunca sonhou em trabalhar em uma equipe de alta performance?</p>

@@ -8,10 +8,10 @@
 
         <div class="container">
             <div class="card flex-row flex-wrap" onclick="window.location.href='use-o-canvas-a-seu-favor.php'">
-                <div class="card-header border-0 col-4">
+                <div class="card-header border-0 col-md-4 col-sm-12">
                     <img src="img/gestao/canvas_artigo.png" width="330px" height="200px">
                 </div>
-                <div class="card-block px-3 col-8">
+                <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Gestão</span>
                     <p class="list-card-title">Use o Canvas a seu favor</p>
                     <p class="list-card-text">

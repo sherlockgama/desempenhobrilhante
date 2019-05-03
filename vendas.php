@@ -8,10 +8,10 @@
 
         <div class="container">
             <div class="card flex-row flex-wrap" onclick="window.location.href='eu-quero-vender-mais-e-agora.php'">
-                <div class="card-header border-0 col-4">
+                <div class="card-header border-0 col-md-4 col-sm-12">
                     <img src="img/vendas/vender_mais.png" width="330px" height="172px">
                 </div>
-                <div class="card-block px-3 col-8">
+                <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Vendas</span>
                     <p class="list-card-title">Eu quero vender mais! E agora?</p>
                     <p class="list-card-text">Entenda como você pode melhorar sua performance e vender mais. Sabemos que empresas que trabalham com vendas de produtos ou serviços buscam maximizar seus resultados e a busca constante pelo alcance das metas pode se tornar frenética.</p>

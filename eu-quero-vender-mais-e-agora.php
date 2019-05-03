@@ -11,14 +11,14 @@
                 <img src="img/vendas/vender_mais.png" class="image-article">
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="author">
                     <b>Caroline Aguiar</b></br>
                         Relações Públicas</br>
                         Publicado em 1 de maio de 2019
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="row justify-content-end footer-social-icons">
                         <div class="col-12 share-this-post text-right">
                             Compartilhe esse post
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <hr></br>
-            <div class="article-options col-8 offset-2" style="font-size:18px">
+            <div class="article-options col-md-8 offset-md-2 col-sm-12" style="font-size:18px">
                 <h2><b>Eu quero vender mais! E agora?</b></h2>
                 <div class="text-justify">
                     <h4>Entenda como você pode melhorar sua performance e vender mais</h4>
