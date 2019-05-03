@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-image: url("../img/anuncio_ebook.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    color: #2e323b;
+    font-size: 36px;
+}
+
+.text {
+    color: #2e323b;
+    font-size: 20px;
+}
+
+.wrapper div {
+    padding: 20px;
+}
+
+div.flex-align {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
