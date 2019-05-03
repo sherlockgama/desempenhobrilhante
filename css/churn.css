@@ -22,7 +22,7 @@ body {
 }
 
 .wrapper div {
-    padding: 20px;
+    padding: 40px;
 }
 
 div.flex-align {
@@ -35,4 +35,25 @@ div.flex-align {
     -webkit-align-items: center;
     align-items: center;
     height: 100%;
+}
+
+.title-form {
+    font-size: 32px;
+    color: #fe9d00;
+}
+
+.subtitle-form {
+    font-size: 18px;
+    color: white;
+}
+
+.form-content {
+    margin-left: 50px;
+}
+
+.btn-orange {
+    background-color: #ff9c00;
+    color: white;
+    width: 100%;
+    border-color: #ff9c00;
 }

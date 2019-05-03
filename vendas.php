@@ -25,6 +25,6 @@
 
         <?php include('include/footer.html') ?>
     </body>
-    <script type="text/javascript" src="include/lead.js"></script>
+    <script type="text/javascript" src="js/lead.js"></script>
     
 </html>
