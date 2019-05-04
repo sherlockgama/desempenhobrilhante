@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="author">
-                    <b>Caroline Aguiar</b></br>
+                        <b>Caroline Aguiar</b></br>
                         Relações Públicas</br>
                         Publicado em 1 de maio de 2019
                     </div>
