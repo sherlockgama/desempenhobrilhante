@@ -68,3 +68,10 @@ function create(email, name, ip) {
     firebase.database().ref().child('leads').push(lead);
     alert('Inscrição realizada');
 }
+
+setTimeout(function () {
+    console.log(screen);
+    if (screen.width > 768) {
+        document.getElementById('widget-sympla').style.display = 'block';
+    }
+}, 8000);

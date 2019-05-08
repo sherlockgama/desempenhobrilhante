@@ -237,3 +237,10 @@
 .img-logo {
     max-height: 120px;
 }
+
+#widget-sympla {
+    display: none;
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+}
