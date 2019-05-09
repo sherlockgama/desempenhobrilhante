@@ -98,7 +98,7 @@
 
                     <div class="row" style="margin-top: 20px">
                         <div class="col-md-8 col-sm-12">
-                            <img src="img/evento/banners_site_interna-01.png" alt="Gestão em Foco" class="col-md-12 col-sm-12">
+                            <img src="img/evento/banners_site_interna-03.png" alt="Gestão em Foco" class="col-md-12 col-sm-12">
                         </div>
                     </div>
                     <p>
@@ -111,7 +111,7 @@
                     </p>
                     <div class="row" style="margin-top: 20px">
                         <div class="col-md-8 col-sm-12">
-                            <img src="img/evento/banners_site_interna-02.png" alt="Gestão em Foco" class="col-md-12 col-sm-12">
+                            <img src="img/evento/banners_site_interna-04.png" alt="Gestão em Foco" class="col-md-12 col-sm-12">
                         </div>
                     </div>
                     <p>
