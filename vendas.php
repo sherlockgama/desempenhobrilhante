@@ -9,7 +9,7 @@
         <div class="container">
             <div class="card flex-row flex-wrap" onclick="window.location.href='fluxo-de-vendas.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/vendas/fluxo-de-comunicacao.png" width="330px" height="190px">
+                    <img src="img/vendas/fluxo-de-comunicacao.png" class="col-sm-12 cold-md-12" height="190px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Vendas</span>
@@ -21,7 +21,7 @@
             </div>
             <div class="card flex-row flex-wrap" onclick="window.location.href='eu-quero-vender-mais-e-agora.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/vendas/vender_mais.png" width="330px" height="172px">
+                    <img src="img/vendas/vender_mais.png" class="col-sm-12 cold-md-12" height="172px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Vendas</span>

@@ -70,8 +70,7 @@ function create(email, name, ip) {
 }
 
 setTimeout(function () {
-    console.log(screen);
     if (screen.width > 768) {
         document.getElementById('widget-sympla').style.display = 'block';
     }
-}, 8000);
+}, 4000);

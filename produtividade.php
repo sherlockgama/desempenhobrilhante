@@ -9,7 +9,7 @@
         <div class="container">
             <div class="card flex-row flex-wrap" onclick="window.location.href='processo-e-produtividade.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/produtividade/PROCESSO DE PRODUTIVIDADE IMAGEM.png" width="330px" height="200px">
+                    <img src="img/produtividade/PROCESSO DE PRODUTIVIDADE IMAGEM.png" class="col-sm-12 cold-md-12" height="200px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Produtividade</span>
@@ -23,7 +23,7 @@
             </div>
             <div class="card flex-row flex-wrap" onclick="window.location.href='como-vencer-a-procrastinacao.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/produtividade/procrastinar-01.jpg" width="330px" height="200px">
+                    <img src="img/produtividade/procrastinar-01.jpg" class="col-sm-12 cold-md-12" height="200px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Produtividade</span>

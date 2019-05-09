@@ -9,7 +9,7 @@
         <div class="container">
             <div class="card flex-row flex-wrap" onclick="window.location.href='descubra-como-ter-um-dream-team.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/gestao/dream_team.jpg" width="330px">
+                    <img src="img/gestao/dream_team.jpg" class="col-sm-12 cold-md-12">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Gestão</span>
@@ -22,7 +22,7 @@
 
             <div class="card flex-row flex-wrap" onclick="window.location.href='use-o-canvas-a-seu-favor.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/gestao/canvas_artigo.png" width="330px" height="200px">
+                    <img src="img/gestao/canvas_artigo.png" class="col-sm-12 cold-md-12" height="200px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Gestão</span>

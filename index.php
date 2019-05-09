@@ -9,7 +9,7 @@
         <div class="container">
             <div class="card flex-row flex-wrap" onclick="window.location.href='fluxo-de-vendas.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/vendas/fluxo-de-comunicacao.png" width="330px" height="190px">
+                    <img src="img/vendas/fluxo-de-comunicacao.png" class="col-sm-12 cold-md-12" height="190px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Vendas</span>
@@ -21,7 +21,7 @@
             </div>
             <div class="card flex-row flex-wrap" onclick="window.location.href='processo-e-produtividade.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/produtividade/PROCESSO DE PRODUTIVIDADE IMAGEM.png" width="330px" height="200px">
+                    <img src="img/produtividade/PROCESSO DE PRODUTIVIDADE IMAGEM.png" class="col-sm-12 cold-md-12" height="200px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Produtividade</span>
@@ -35,7 +35,7 @@
             </div>
             <div class="card flex-row flex-wrap" onclick="window.location.href='como-vencer-a-procrastinacao.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/produtividade/procrastinar-01.jpg" width="330px" height="200px">
+                    <img src="img/produtividade/procrastinar-01.jpg" class="col-sm-12 cold-md-12" height="200px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Produtividade</span>
@@ -49,7 +49,7 @@
             </div>
             <div class="card flex-row flex-wrap" onclick="window.location.href='eu-quero-vender-mais-e-agora.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/vendas/vender_mais.png" width="330px" height="172px">
+                    <img src="img/vendas/vender_mais.png" class="col-sm-12 cold-md-12" height="172px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Vendas</span>
@@ -61,7 +61,7 @@
             </div>
             <div class="card flex-row flex-wrap" onclick="window.location.href='use-o-canvas-a-seu-favor.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/gestao/canvas_artigo.png" width="330px" height="200px">
+                    <img src="img/gestao/canvas_artigo.png" class="col-sm-12 cold-md-12" height="200px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Gestão</span>
@@ -75,7 +75,7 @@
             </div>
             <div class="card flex-row flex-wrap" onclick="window.location.href='descubra-como-ter-um-dream-team.php'">
                 <div class="card-header border-0 col-md-4 col-sm-12">
-                    <img src="img/gestao/dream_team.jpg" width="330px" height="172px">
+                    <img src="img/gestao/dream_team.jpg" class="col-sm-12 cold-md-12" height="172px">
                 </div>
                 <div class="card-block px-3 col-md-8 col-sm-12">
                     <span class="list-card-category">Gestão</span>
