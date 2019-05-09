@@ -1,0 +1,18 @@
+.banner {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.event-title {
+    color: #FF9D00;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.event-message {
+    color: #FF9D00;
+    font-weight: bold;
+}
